@@ -8,6 +8,11 @@ body {
     box-sizing: border-box;
 }
 
+.container{
+    min-width: 360px;
+}
+
+/* navigation section */
 nav{
     display: flex;
     justify-content: space-between;
@@ -30,9 +35,7 @@ nav li{
     margin-right: 0.4em;
 }
 
-.container{
-    min-width: 360px;
-}
+
 
 
 /* hero section */
