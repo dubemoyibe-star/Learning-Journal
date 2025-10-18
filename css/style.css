@@ -38,7 +38,7 @@ img{
     width: 100%;
  
 }
-
+/* hero section */
 .hero-section-container{
      position: relative;
 }
@@ -102,6 +102,7 @@ p{
     font-weight: 700;
 }
 
+/* footer */
 footer{
     padding: 1.3em;
     text-align: center;
@@ -120,7 +121,7 @@ footer{
     font-size: 0.7rem;
 }
 
-
+ /* media queries */
 @media (max-width : 360px){
     h1{
         font-size: 20px;
