@@ -1,0 +1,164 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0.1em 1em;
+}
+
+nav li{
+    margin-right: 1.8em;
+}
+
+.icon-image{
+    margin-right: 0.4em;
+}
+
+.container{
+    min-width: 360px;
+}
+
+img{
+    width: 100%;
+ 
+}
+
+.hero-section-container{
+     position: relative;
+}
+
+.hero-section-container p {
+    color: white;
+}
+
+
+.hero-text{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 4vw;
+}
+
+h1{
+    margin: 0;
+    font-size: 5vw;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+p{
+    line-height: 1.25;
+    font-size: 1.02rem;
+    color: rgb(80, 80, 80);
+}
+
+.date{
+    font-size: 0.8rem;
+    color: black;
+}
+
+.content-container img{
+    border-radius: 5px;
+}
+
+.content-container {
+   padding: 1em;
+}
+
+.view-more, footer{
+    display: block;
+}
+
+.view-more{
+    text-align: center;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+footer{
+    padding: 1.3em;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    letter-spacing: 0.5px;
+    margin-top: 2em;
+}
+
+.top-footer{
+    color: rgb(236, 236, 236);
+    font-size: 0.8rem;
+}
+
+.lower-footer{
+    color: rgb(215, 215, 215);
+    font-size: 0.7rem;
+}
+
+
+@media (max-width : 360px){
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media (min-width : 500px){
+
+    .content-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 1em;
+    }
+    
+    p{
+        font-size: 1.1rem;
+    }
+    
+    
+    .date{
+       font-size: 1rem; 
+    }
+    
+}
+
+@media (min-width : 690px){
+        .content-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    nav ul {
+        font-size: 1.02rem;
+    }
+    
+    p{
+        font-size: 1.1rem;
+    }
+    
+    
+    .date{
+       font-size: 1rem; 
+    }
+    
+}
