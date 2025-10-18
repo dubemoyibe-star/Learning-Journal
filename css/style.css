@@ -47,6 +47,10 @@ img{
     color: white;
 }
 
+.hero-section-container img{
+    max-height: 550px;
+}
+
 
 .hero-text{
     position: absolute;
@@ -149,7 +153,11 @@ footer{
     }
     
     nav ul {
-        font-size: 1.02rem;
+        font-size: 1.3rem;
+    }
+
+    .hero-text p{
+        font-size: 1.3rem;
     }
     
     p{
